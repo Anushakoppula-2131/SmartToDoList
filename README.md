@@ -37,6 +37,6 @@ npm start
 ## Future Enhancements
 - 🔹 User authentication & authorization
 - 🔹 Task prioritization & categorization
-- 🔹 Notification & reminders
+
 
 This **Smart To-Do List Application** makes task management seamless and efficient! 🚀
