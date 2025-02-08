@@ -1,38 +1,42 @@
-# SmartTodoList
+# Smart To-Do List Application
 
-Smart To-Do List Application
-Overview
+## Overview
+The **Smart To-Do List Application** is a feature-rich task management tool built with **React** and powered by a **Spring Boot backend**. This app helps users efficiently organize their tasks and seamlessly sync them with **Google Calendar**.
 
-The Smart To-Do List Application is a feature-rich task management tool built with React and powered by a Spring Boot backend. This app helps users efficiently organize their tasks and seamlessly sync them with Google Calendar.
-Features
+## Features
+- ✅ **Task Management** – Create, edit, and delete tasks effortlessly.
+- ✅ **Google Calendar Sync** – Automatically add tasks to Google Calendar and remove them upon deletion.
+- ✅ **Task Editing** – Modify task details without altering the subtask section. Edits save as new tasks while old ones get deleted.
+- ✅ **User-Friendly Interface** – Simple, intuitive design with buttons positioned consistently.
+- ✅ **Spring Boot Backend** – Ensures secure and efficient task storage in a database.
 
-✅ Task Management – Create, edit, and delete tasks effortlessly.
-✅ Google Calendar Sync – Automatically add tasks to Google Calendar and remove them upon deletion.
-✅ Task Editing – Modify task details without altering the subtask section. Edits save as new tasks while old ones get deleted.
-✅ User-Friendly Interface – Simple, intuitive design with buttons positioned consistently.
-✅ Spring Boot Backend – Ensures secure and efficient task storage in a database.
-Technologies Used
+## Technologies Used
+- **Frontend:** React, JavaScript
+- **Backend:** Spring Boot
+- **Database:** SQL-based storage
+- **Integration:** Google Calendar API
 
-    Frontend: React, JavaScript
-    Backend: Spring Boot
-    Database: SQL-based storage
-    Integration: Google Calendar API
-Installation & Setup
-
-    Clone the repository:
-
+## Installation & Setup
+### 1. Clone the repository:
+```bash
 git clone <repo_url>
 cd smart-todo-app
-
-Install dependencies:
-
+```
+### 2. Install dependencies:
+```bash
 npm install
-
-Run the frontend:
-
+```
+### 3. Run the frontend:
+```bash
 npm start
+```
+### 4. Setup and run the backend:
+- Configure Spring Boot with the database.
+- Start the backend server.
 
-Setup and run the backend:
+## Future Enhancements
+- 🔹 User authentication & authorization
+- 🔹 Task prioritization & categorization
+- 🔹 Notification & reminders
 
-    Configure Spring Boot with the database.
-    Start the backend server.
+This **Smart To-Do List Application** makes task management seamless and efficient! 🚀
