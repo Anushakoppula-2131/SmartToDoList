@@ -34,6 +34,9 @@ npm start
 - Configure Spring Boot with the database.
 - Start the backend server.
 
+### 5. Note
+- Screenshots are added
+
 ## Future Enhancements
 - 🔹 User authentication & authorization
 - 🔹 Task prioritization & categorization
