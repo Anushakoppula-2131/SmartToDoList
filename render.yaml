@@ -3,7 +3,6 @@ services:
     name: smart-todo-backend
     env: docker
     rootDir: backend
-    plan: free
     dockerfilePath: backend/Dockerfile
     autoDeploy: true
 
@@ -13,4 +12,4 @@ services:
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: dist
-    plan: free
+    autoDeploy: true
