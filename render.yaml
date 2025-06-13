@@ -1,9 +1,10 @@
 services:
   - type: web
     name: smart-todo-backend
-    env: docker
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
     rootDir: backend
-    dockerfilePath: backend/Dockerfile
     autoDeploy: true
 
   - type: web
